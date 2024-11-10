@@ -22,14 +22,16 @@ five: "#9DB2BF",
       },
       fontFamily:{
         general : ["Special Elite"],
-        fewer:["Schoolbell"],
-        less :["Annie Use Your Telescope"],
+        second :["Syne Mono"],
+        dot :["Doto"],
+        less :["Chakra Petch"],
+        hiye :["Sankofa Display"],
       },
 
     },
   },
   plugins: [require('daisyui'),],
   daisyui: {
-    themes: [],
+    themes: ["light" , "dark"],
   },
 }
