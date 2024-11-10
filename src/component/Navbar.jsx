@@ -3,6 +3,7 @@ import Logo from "../assets/Logo.png"
 import { GiSpaceship } from "react-icons/gi";
 import { TbPlanet } from "react-icons/tb";
 import { useState, useEffect } from "react";
+import { useNavigate } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -22,22 +23,23 @@ const Navbar = () => {
       setTheme("dark");
     }
   };
+  const navigate =useNavigate()
 
   return (
     <>
        <nav
-             className=" w-full z-50 bg-third backdrop-blur-sm py-4 sm:py-0 font-dot "
+             className=" w-full z-50  backdrop-blur-sm py-4 sm:py-0 font-dot "
       >
         <div className="container">
           <div className="flex justify-between items-center">
-            <div className="flex items-center gap-4 text-white font-bold text-2xl">
-              <img src={Logo} alt="" className="w-10" />
-              <span>SECKIN SPACE</span>
+            <div className="flex items-center gap-4 font-bold text-2xl">
+              <img src={Logo} alt="" onClick={()=>navigate("/")}  className="w-11 cursor-pointer" />
+              <span className='font-less text-primary' >SECKIN</span> SPACE
             </div>
-            <div className="text-white hidden sm:block">
-              <ul className="flex items-center gap-6 text-xl py-4 ">
+            <div className=" hidden sm:block">
+              <ul className="flex items-center gap-6 text-xl py-4 font-bold">
                 <li>
-                  <a href="#/">Home</a>
+                  <a href="/">Home</a>
                 </li>
                 <li>
                   <a href="/Technology">Technology</a>
