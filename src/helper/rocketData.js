@@ -14,7 +14,7 @@ const rocketData = [
       title: "PATHFINDER",
       content: "500-1500km",
       description:
-        ", it's a habitable artificial satellite orbiting Earth and serves as a space environment research laboratory",
+        "it's a habitable artificial satellite orbiting Earth and serves as a space environment research laboratory",
     image: "https://cdn.pixabay.com/photo/2017/10/11/14/57/spaceship-2841277_1280.png"
     },
     {
