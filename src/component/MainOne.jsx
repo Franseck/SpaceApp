@@ -3,10 +3,10 @@ import mount from "../assets/moon-surface.png"
 
 const MainOne = () => {
   return (
-    <div className="h-full mt-12">
+    <div className="h-full mt-8">
     <div className="h-full flex justify-center items-center p-4">
       <div className="container grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <div className=" space-y-6 lg:pr-36">
+        <div className=" space-y-4 lg:pr-36">
           <h1 className="text-5xl font-bold font-second">
             ORBIT THE EARTH
           </h1>
@@ -22,6 +22,7 @@ const MainOne = () => {
             LEARN MORE
           </button>
         </div>
+        <div></div>
         </div>
     </div>
     <img
@@ -30,7 +31,7 @@ const MainOne = () => {
       className="absolute right-0 bottom-0 w-full brightness-50 z-10"
     />
 
-    <div className="absolute bottom-0 z-30 right-0 w-full bg-gradient-to-b from-transparent from-10% to-primary to-90% h-[20px] sm:h-[50px] md:[60px]"></div>
+<div className="absolute bottom-0 z-30 right-0 w-full bg-gradient-to-b from-transparent from-10% to-black to-90% h-[20px] sm:h-[50px] md:[60px]"></div>
   </div>
   )
 }
