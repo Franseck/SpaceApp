@@ -13,12 +13,14 @@ const Home = () => {
           autoPlay
           loop
           muted
-          className="fixed right-0 top-0 h-[600px] w-full object-cover z-[-1]"
+          className="fixed right-0 top-0 h-full w-full object-cover z-[-1]"
         >
           <source src={earth} type="video/mp4" />
+          
         </video>
-
+        
 <MainOne/>
+
        </div> 
 <MainTwo/>
 <MainThree/>
