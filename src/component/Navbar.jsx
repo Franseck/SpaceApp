@@ -34,7 +34,7 @@ const Navbar = () => {
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-4 font-bold text-2xl">
               <img src={Logo} alt="" onClick={()=>navigate("/")}  className="w-11 cursor-pointer" />
-              <span className='font-less text-primary' >SECKIN</span> SPACE
+              <span className='font-less text-primary' >SCK</span> SPACE
             </div>
             <div className=" hidden sm:block">
               <ul className="flex items-center gap-6 text-xl py-4 font-bold">
@@ -53,7 +53,7 @@ const Navbar = () => {
               </ul>
             </div>
             <div className='flex items-center'>
-              <button className=" text-white border-2 border-white px-3 py-1 rounded-md">
+              <button className="  border-2 border-gray-400 px-3 py-1 rounded-md">
                 Login
               </button>
  {/* Toggle button here */}

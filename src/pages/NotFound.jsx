@@ -1,6 +1,4 @@
 import { useNavigate } from 'react-router-dom'
-import Not from "../assets/404.jpg"
-
 
 const NotFound = () => {
 const navigate =useNavigate()
