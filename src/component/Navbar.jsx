@@ -39,16 +39,16 @@ const Navbar = () => {
             <div className=" hidden sm:block">
               <ul className="flex items-center gap-6 text-xl py-4 font-bold">
                 <li>
-                  <a href="/">Home</a>
+                  <a href="/" className='hover:text-primary'>Home</a>
                 </li>
                 <li>
-                  <a href="/Technology">Technology</a>
+                  <a className='hover:text-primary' href="/Technology">Technology</a>
                 </li>
                 <li>
-                  <a href="/Galaxy">Galaxy</a>
+                  <a className='hover:text-primary' href="/Galaxy">Galaxy</a>
                 </li>
                 <li>
-                <a href="/About">About</a>
+                <a className='hover:text-primary' href="/About">About</a>
                 </li>
               </ul>
             </div>

@@ -3,7 +3,10 @@ import galaxy from "../assets/galaxy.jpg"
 
 const Galaxy = () => {
   return (
-<div className='flex justify-center items-center mt-20'>
+<div  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000"
+className='flex justify-center items-center mt-20'>
 <div className=" flex justify-center items-center text-center card glass w-96 ">
   <figure >
     <img
