@@ -31,8 +31,8 @@ five: "#9DB2BF",
 
         tex :"#803D3B",
         primary : "#E8E0C8",
+             secondary:"#B66D2F",
         primaryDark:"#D3A446",
-        secondary:"#B66D2F",
         secondaryDark:"#297272",
         third:"#1a4146",
         forth: "#6D8B74",
@@ -49,6 +49,6 @@ five: "#9DB2BF",
   },
   plugins: [require('daisyui'),],
   daisyui: {
-    themes: ["light" , "dark"],
+    themes:["light" , "dark" ],
   },
 }

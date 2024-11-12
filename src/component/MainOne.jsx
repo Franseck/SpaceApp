@@ -18,7 +18,7 @@ const MainOne = () => {
           </p>
           <button  data-aos="flip-down"
               data-aos-delay="600"
-                   className="bg-sec hover:bg-primary px-4 py-1 rounded-md duration-200 font-hiye cursor-pointer tracking-wider glass"
+                   className="bg-blue-300 hover:bg-primary px-4 py-1 rounded-md duration-200 font-hiye text-first cursor-pointer tracking-wider glass"
           >
             LEARN MORE
           </button>

@@ -19,24 +19,24 @@ const MainThree = () => {
         <div className="space-y-3 xl:pr-36 p-4 border-r-2 border-b-2 border-r-sky-800 border-b-sky-800 ">
           <p data-aos="fade-up"
                 data-aos-delay="300"
-            className="text-sky-800 uppercase"
+            className="text-sky-800 uppercase font-second text-2xl"
           >
             our vision
           </p>
           <h1  data-aos="fade-up"
                 data-aos-delay="500"
-                      className="uppercase text-5xl"
+                      className="uppercase text-5xl font-general "
           >
             so-2105
           </h1>
-          <p data-aos="fade-up" data-aos-delay="700">
+          <p data-aos="fade-up" data-aos-delay="700" className="font-less">
           “You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars.” -Seckin Ozturk
           </p>
           <button      data-aos="fade-up"
                 data-aos-delay="800"
-                            className="bg-blue-400 hover:bg-blue-500 px-4 py-1 rounded-md duration-200"
-              >
-                View All
+                className="bg-blue-300 hover:bg-primary px-4 py-1 rounded-md duration-200 font-hiye text-first cursor-pointer tracking-wider glass"
+                >
+                  READ MORE
               </button>
             </div>
           </div>
@@ -49,26 +49,26 @@ const MainThree = () => {
               <p
                 data-aos="fade-up"
                 data-aos-delay="300"
-                className="text-sky-800 uppercase"
+                className="text-sky-800 uppercase font-second text-2xl"
               >
                 our mission
               </p>
               <h1
                 data-aos="fade-up"
                 data-aos-delay="500"
-                className="uppercase text-5xl"
+                className="uppercase text-5xl font-general "
               >
                 SECKIN-XD500
               </h1>
-              <p data-aos="fade-up" data-aos-delay="700">
+              <p data-aos="fade-up" data-aos-delay="700" className="font-less">
               SECKIN- XD500 spacecraft is capable of carrying up to 7 passengers to and from Earth orbit and beyond. It is the only spacecraft currently flying that is capable of returning significant amounts of cargo to Earth, and is the first private spacecraft to take humans to the space station.
               </p>
               <button
                 data-aos="fade-up"
                 data-aos-delay="800"
-                className="bg-blue-400 hover:bg-blue-500 px-4 py-1 rounded-md duration-200"
+                 className="bg-blue-300 hover:bg-primary px-4 py-1 rounded-md duration-200 font-hiye text-first cursor-pointer tracking-wider glass"
               >
-                View All
+                READ MORE
               </button>
             </div>
             <div data-aos="zoom-in-left">

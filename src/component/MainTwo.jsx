@@ -21,9 +21,9 @@ const MainTwo = () => {
                                  className="min-h-[180px] flex flex-col justify-center items-center rounded-xl gap-2 bg-sky-900/55 backdrop-blur-sm   text-center text-2xl py-8 px-3 w-full lg:w-[300px] mx-auto"
                     >
                     <img src={image} alt="" />
-                      <h1>{title}</h1>
-                      <p>{content}</p>
-                      <p className="text-sm">{description}</p>
+                      <h1 className='font-second'>{title}</h1>
+                      <p className='font-general'>{content}</p>
+                      <p className="text-sm font-less">{description}</p>
                     </div>
                   );
                 })}

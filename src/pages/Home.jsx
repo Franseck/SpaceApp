@@ -7,7 +7,7 @@ import earth from "../assets/earth-bg.mp4"
 
 const Home = () => {
   return (
-    <div className=''>
+    <div className='text-three'>
       <div className='h-[500px] relative'>
       <video
           autoPlay

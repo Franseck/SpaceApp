@@ -30,7 +30,7 @@ const Navbar = () => {
        <nav
              className=" w-full z-50  backdrop-blur-sm py-4 sm:py-0 font-dot "
       >
-        <div className="container">
+        <div className="container text-primary dark:text-four">
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-4 font-bold text-2xl">
               <img src={Logo} alt="" onClick={()=>navigate("/")}  className="w-11 cursor-pointer" />
