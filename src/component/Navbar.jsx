@@ -34,7 +34,7 @@ const Navbar = () => {
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-4 font-bold text-2xl">
               <img src={Logo} alt="" onClick={()=>navigate("/")}  className="w-11 cursor-pointer" />
-              <span className='font-less ' >SCK</span> SPACE
+              <span className='font-second text-3xl text-primary ' >SCK</span>SPACE
             </div>
             <div className=" hidden sm:block">
               <ul className="flex items-center gap-6 text-xl py-4 font-bold">

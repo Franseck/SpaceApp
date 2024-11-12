@@ -9,9 +9,9 @@ const Galaxy = () => {
     <img
       src={galaxy} alt="" />
   </figure>
-  <div className="card-body">
-    <h2 className="card-title">Life hack</h2>
-    <p>How to park your car at your garage?</p>
+  <div className="card-body items-center gap-4">
+    <h2 className="card-title font-second">Into The Deep</h2>
+    <p className="font-less">Planets are gravitationally rounded, but have not cleared their orbits of other bodies. In increasing order of average distance from the Sun, the ones generally agreed among astronomers are Ceres, Orcus, Pluto, Haumea, Quaoar, Makemake, Gonggong, Eris, and Sedna</p>
     <div className="card-actions justify-end">
       <button className="bg-sec hover:bg-primary glass px-4 py-1 rounded-md duration-200 font-hiye tracking-wider ">Learn now!</button>
     </div>
