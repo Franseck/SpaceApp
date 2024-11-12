@@ -7,17 +7,18 @@ const MainOne = () => {
     <div className="h-full flex justify-center items-center p-4">
       <div className="container grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div className=" space-y-4 lg:pr-36">
-          <h1 className="text-5xl font-bold font-second">
+          <h1 data-aos="fade-up"  className="text-5xl font-bold font-second">
             ORBIT THE EARTH
           </h1>
-          <p className='font-less'>
+          <p data-aos="fade-up" data-aos-delay="300" className='font-less'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ea
             dolorem eius accusamus beatae. Nulla quis beatae quo, possimus
             tempora similique dignissimos repellat aperiam veniam culpa
             consequatur repudiandae asperiores saepe.
           </p>
-          <button
-                   className="bg-sec hover:bg-primary px-4 py-1 rounded-md duration-200 font-hiye tracking-wider glass"
+          <button  data-aos="flip-down"
+              data-aos-delay="600"
+                   className="bg-sec hover:bg-primary px-4 py-1 rounded-md duration-200 font-hiye cursor-pointer tracking-wider glass"
           >
             LEARN MORE
           </button>

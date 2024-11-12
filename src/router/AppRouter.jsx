@@ -4,11 +4,22 @@ import NotFound from "../pages/NotFound";
 import About from "../pages/About";
 import Navbar from "../component/Navbar";
 import Galaxy from "../pages/Galaxy";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 
 const AppRouter = () => {
 
+      useEffect(()=>{
+            AOS.init({
+              offset:100,
+              duration:500,
+              easing:"ease-in-out",
+              delay:100,
+            }); AOS.refresh()
+          },[])
     
       return (
         <div>

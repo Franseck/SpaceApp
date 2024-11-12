@@ -5,7 +5,7 @@ const About = () => {
     <section className="text-gray-600 body-font relative">
     <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
       <div className="lg:w-2/3 md:w-1/2 bg-gray-500 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-        <iframe width="100%" height="100%" className="absolute  inset-0 backdrop-grayscale-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed" ></iframe>
+        <iframe width="100%" height="100%" className="absolute  inset-0 backdrop-grayscale-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no"  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d46977.4889564846!2d-79.42503150475068!3d43.6448901871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1731370646178!5m2!1sen!2sca" ></iframe>
         <div className="bg-gray-400 relative flex flex-wrap py-6 rounded shadow-md">
           <div className="lg:w-1/2 px-6 bg-slate-300">
             <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
